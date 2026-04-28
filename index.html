@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Eater&family=Gabarito:wght@400..900&family=Great+Vibes&family=Italianno&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Spicy+Rice&family=Tagesschrift&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Udemy Clone</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <div class="navbar">
+      <div class="navbar__s1">
+        <h1 class="navbar__s1__title">Udemy</h1>
+      </div>
+
+      <div class="navbar__s2">
+        <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0)"></i>
+        <input
+          type="text"
+          placeholder="Search for anything here Tech, Business, Art..."
+        />
+      </div>
+
+      <div class="navbar__s3">
+        <p>Courses</p>
+        <div class="mylearning">
+           <p>My Learning</p>
+            <div class="mylearning__popup">
+              <p>You didn't purchase anything yet</p>
+            </div>
+        </div>
+        
+        <i class="fa-solid fa-cart-shopping" style="color: rgb(0, 0, 0)"></i>
+        <i class="fa-solid fa-bell" style="color: rgb(0, 0, 0)"></i>
+        <i class="fa-solid fa-user" style="color: rgb(0, 0, 0)"></i>
+      </div>
+    </div>
+
+    <!--Categories-->
+    <div class="categories">
+      <p>Development</p>
+      <p>Business</p>
+      <p>IT & Software</p>
+      <p>Personal Development</p>
+      <p>Design</p>
+      <p>Marketing</p>
+    </div>
+
+    <!--Sale Section-->
+    <div class="sale-image">
+      <img src="./images/sale-image.jpg" alt="saleimage" />
+      <div class="sale-image__offer">
+         <h2>Udemy Flash Sale! 24 hours to save.</h2>
+         <p>Get the top courses just for 499. Just ome dat to save but a lifetime to learn</p>
+      </div>
+    </div>
+
+    <!--Recommended-->
+    <div class="recommended">
+      <h1>Recommended for you</h1>
+      <p>Pick the best fit</p>
+      <div class="recommended__container">
+        <div class="course-card">
+          <img src="./images/c1.jpg" alt="courseimage" />
+          <h3>2025 Fullstack Web development</h3>
+          <p>Angela</p>
+          <p>4.9⭐⭐⭐⭐⭐</p>
+          <p>449 <del>1999</del></p>
+        </div>
+
+        <div class="course-card">
+          <img src="./images/c2.jpg" alt="courseimage" />
+          <h3>Basic to advance programming</h3>
+          <p>Mark</p>
+          <p>3.5⭐⭐⭐</p>
+          <p>399 <del>1499</del></p>
+        </div>
+
+        <div class="course-card">
+          <img src="./images/c3.jpg" alt="courseimage" />
+          <h3>Data Analysis</h3>
+          <p>Steve</p>
+          <p>4.3⭐⭐⭐⭐</p>
+          <p>599 <del>2999</del></p>
+        </div>
+
+        <div class="course-card">
+          <img src="./images/c4.jpg" alt="courseimage" />
+          <h3>Artificial Intelligence</h3>
+          <p>Col Steele</p>
+          <p>4.4⭐⭐⭐⭐</p>
+          <p>999 <del>3999</del></p>
+        </div>
+      </div>
+    </div>
+
+    <!--Topics-->
+    <div class="topics">
+       <h1 class="topics__title">Topics Recommended For You</h1>
+       <div class="topics__container">
+          <p>Website</p>
+          <p>Javascript</p>
+          <p>CSS</p>
+          <p>Mongo DB</p>
+          <p>Azure</p>
+          <p>Docker</p>
+          <p>GitHub</p>
+          <p>React JS</p>
+          <p>AWS</p>
+       </div>
+    </div>
+
+    <!--Popular Section-->
+    <div class="popular">
+      <h1 class="popular__title">Most Popular Courses</h1>
+      <p class="popular__subtitle">Pick the best fit</p>
+      <div class="popular__container">
+          <div class="course-card">
+          <img src="./images/c1.jpg" alt="courseimage" />
+          <h3>2025 Fullstack Web development</h3>
+          <p>Angela</p>
+          <p>4.9⭐⭐⭐⭐⭐</p>
+          <p>449 <del>1999</del></p>
+        </div>
+
+        <div class="course-card">
+          <img src="./images/c2.jpg" alt="courseimage" />
+          <h3>Basic to advance programming</h3>
+          <p>Mark</p>
+          <p>3.5⭐⭐⭐</p>
+          <p>399 <del>1499</del></p>
+        </div>
+
+        <div class="course-card">
+          <img src="./images/c3.jpg" alt="courseimage" />
+          <h3>Data Analysis</h3>
+          <p>Steve</p>
+          <p>4.3⭐⭐⭐⭐</p>
+          <p>599 <del>2999</del></p>
+        </div>
+
+        <div class="course-card">
+          <img src="./images/c4.jpg" alt="courseimage" />
+          <h3>Artificial Intelligence</h3>
+          <p>Col Steele</p>
+          <p>4.4⭐⭐⭐⭐</p>
+          <p>999 <del>3999</del></p>
+        </div>
+
+        <div class="course-card">
+          <img src="./images/c2.jpg" alt="courseimage" />
+          <h3>Basic to advance programming</h3>
+          <p>Mark</p>
+          <p>3.5⭐⭐⭐</p>
+          <p>399 <del>1499</del></p>
+        </div>
+
+        <div class="course-card">
+          <img src="./images/c4.jpg" alt="courseimage" />
+          <h3>Artificial Intelligence</h3>
+          <p>Col Steele</p>
+          <p>4.4⭐⭐⭐⭐</p>
+          <p>999 <del>3999</del></p>
+        </div>
+
+        <div class="course-card">
+          <img src="./images/c3.jpg" alt="courseimage" />
+          <h3>Data Analysis</h3>
+          <p>Steve</p>
+          <p>4.3⭐⭐⭐⭐</p>
+          <p>599 <del>2999</del></p>
+        </div>
+
+         <div class="course-card">
+          <img src="./images/c1.jpg" alt="courseimage" />
+          <h3>2025 Fullstack Web development</h3>
+          <p>Angela</p>
+          <p>4.9⭐⭐⭐⭐⭐</p>
+          <p>449 <del>1999</del></p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+       <div class="footer__one">
+         <div class="footer__one__s1"> 
+            <p>Udemy Business</p>
+            <p>Teach On Udemy</p>
+            <p>Get the App</p>
+            <p>About Us</p>
+            <p>Contact Us</p>
+         </div>
+
+         <div class="footer__one__s2"> 
+            <p>Careers</p>
+            <p>Blog</p>
+            <p>Support</p>
+            <p>Affiliate</p>
+            <p>Investors</p>
+         </div>
+       </div>
+
+       <div class="footer__two">
+          <h1>Udemy</h1>
+          <p>&copy; Udemy, Inc</p>
+       </div>
+    </div>
+  </body>
+</html>
